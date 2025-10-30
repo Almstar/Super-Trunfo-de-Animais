@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Super Trunfo - Animais</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Super Trunfo — Animais</h1>
+    <p class="subtitle">Clique na sua pilha para virar a carta. Depois escolha um atributo para comparar!</p>
+  </header>
+
+  <main>
+    <section id="top-area">
+      <div class="pile" id="computer-pile">
+        <div class="pile-count" id="cpu-count">26</div>
+        <div class="card back" id="cpu-back">VIRADA</div>
+      </div>
+    </section>
+
+    <section id="middle-area">
+      <div id="message">Sua vez — clique na sua pilha para virar a carta.</div>
+      <div id="pot-info">Pot: <span id="pot-count">0</span> cartas</div>
+    </section>
+
+    <section id="bottom-area">
+      <div class="pile" id="player-pile">
+        <div class="pile-count" id="player-count">26</div>
+        <div class="card back" id="player-back">VIRADA</div>
+      </div>
+    </section>
+
+    <section id="card-area" class="hidden">
+      <div class="card face" id="player-card">
+        <!-- Conteúdo populado via JS -->
+      </div>
+
+      <div class="card face hidden" id="cpu-card">
+        <!-- Conteúdo populado via JS -->
+      </div>
+    </section>
+
+    <section id="controls">
+      <button id="next-round" class="hidden">Próxima rodada</button>
+      <div id="scoreboard">
+        <span>Você: <strong id="player-size">26</strong></span>
+        <span>Computador: <strong id="cpu-size">26</strong></span>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <small>Desenvolvido para Kamilla — versão simples para GitHub Pages</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
