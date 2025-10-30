@@ -1,4 +1,3 @@
-@@ -0,0 +1,510 @@
 /* script.js - Super Trunfo Animais (versão simples para GitHub Pages)
    Autor: Kamilla
    Regras básicas implementadas: jogador escolhe atributo; maior valor vence; empate -> pot.
